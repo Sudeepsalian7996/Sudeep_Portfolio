@@ -124,7 +124,8 @@
               <h1 class="home-title">Hi, I am Sudeep Salian</h1>
               <h3 class="home-subtitle">MERN Stack Developer</h3>
               <p class="home-description">
-                Passionate MERN Stack Developer dedicated to the art of web development.
+                Passionate MERN Stack Developer dedicated to the art of web
+                development.
               </p>
               <a href="#contact" class="button button-flex">
                 Contact Me <i class="fa-regular fa-envelope button-icon"></i>
@@ -151,13 +152,15 @@
 
           <div class="about-data">
             <p class="about-description">
-              As a full-stack developer, I specialize in MERN backend.
-              Passionate about continuous learning, I'm now delving into
-              React.js. In my last role, I tackled challenges to boost my
-              backend skills. Committed to advancing in web development, I see
-              learning as a lifelong journey. Excited to contribute my backend
-              expertise and master React.js, I aim to enhance my capabilities
-              for an innovative company valuing growth and skill development.
+              As a full-stack developer, I specialize in frontend development
+              with a strong focus on React.js. My background includes
+              substantial experience in backend development and cloud
+              deployment, where I have tackled complex challenges to enhance my
+              technical skills. Dedicated to continuous learning, I am committed
+              to advancing in web development and view it as a lifelong journey.
+              I am eager to contribute my frontend expertise, along with my
+              backend and deployment knowledge, to an innovative company that
+              values growth and skill development.
             </p>
 
             <div class="about-info">
@@ -187,7 +190,7 @@
             <div class="about-buttons">
               <a
                 download=""
-                href="https://drive.google.com/file/d/1yN7yq-Om4fMAZ6VbYi49KvTVmBxUef7U/view?usp=sharing"
+                href="https://drive.google.com/file/d/1_j2gkbkoAwfPexCrbzxDn4YseKVdmoZb/view?usp=drive_link"
                 class="button button-flex"
               >
                 Download Resume<i
@@ -206,6 +209,7 @@
         <div class="skills-content container">
           <div class="skills-name">JavaScript</div>
           <div class="skills-name">React JS</div>
+          <div class="skills-name">Redux</div>
           <div class="skills-name">Node JS</div>
           <div class="skills-name">TypeScript</div>
           <div class="skills-name">StrapiJS</div>
@@ -221,6 +225,8 @@
           <div class="skills-name">CSS</div>
           <div class="skills-name">Tailwind CSS</div>
           <div class="skills-name">Datastructure</div>
+          <div class="skills-name">RTK query</div>
+          <div class="skills-name">Material UI</div>
         </div>
       </section>
       <section class="qualification section">
@@ -295,12 +301,27 @@
               <div class="qualification-data">
                 <div>
                   <h3 class="qualification-title">Full Stack Developer</h3>
-                  <span class="qualification-subtitle"
-                    >Sharpnerium private Limited</span
-                  >
+                  <span class="qualification-subtitle">
+                    DecodeUp (P) Limited
+                  </span>
                   <div class="qualification-date">
                     <i class="fa-solid fa-calendar-days"></i>
-                    2022 - 2023
+                    Feb 2024 - Present
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification-round"></span>
+                  <span class="qualification-line"></span>
+                </div>
+              </div>
+              <!-- qualifi 2 -->
+              <div class="qualification-data">
+                <div>
+                  <h3 class="qualification-title">Full Stack Developer</h3>
+                  <span class="qualification-subtitle"> Nablasol </span>
+                  <div class="qualification-date">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    Jul 2023 - Nov 2023
                   </div>
                 </div>
                 <div>
@@ -360,8 +381,9 @@
                     <i
                       class="fa-regular fa-circle-check services-list-icon"
                     ></i>
-                    <p>Security Measures/p>
+                    <p>Security Measures/p></p>
                   </li>
+
                   <li class="services-box-list">
                     <i
                       class="fa-regular fa-circle-check services-list-icon"
@@ -426,7 +448,58 @@
             </div>
           </div>
           <!-- service 3  -->
-          
+          <div class="services-content">
+            <div>
+              <i class="fa-brands fa-uikit services-icon"></i>
+              <h3 class="services-title">
+                Frontend<br />
+                Developer
+              </h3>
+            </div>
+            <span
+              class="button button-flex button-small button-link services-button"
+            >
+              View more
+              <i class="fa-solid fa-arrow-right button-icon"></i>
+            </span>
+
+            <div class="services-box">
+              <div class="services-box-content">
+                <h4 class="services-box-title">
+                  Frontend<br />
+                  Developer
+                </h4>
+                <i class="fa-solid fa-xmark services-box-close"></i>
+
+                <ul class="services-box-services grid">
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Frontend Integration</p>
+                  </li>
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Real-Time Updates</p>
+                  </li>
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Seamless User Experience Optimization</p>
+                  </li>
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>State Management with Redux</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -437,15 +510,19 @@
 
         <div class="portfolio-container container swiper-container">
           <div class="swiper-wrapper">
-
-             <!-- project 0  -->
-             <div class="portfolio-content grid swiper-slide">
+            <!-- project 0  -->
+            <div class="portfolio-content grid swiper-slide">
               <img src="Assets/amazon.jpg" alt="" class="portfolio-img" />
 
               <div class="portfolio-data">
                 <h3 class="portfolio-title">E-commerce website</h3>
                 <p class="portfolio-description">
-                  Explore secure online shopping with our advanced e-commerce platform. Built on Node.js, ReactJs, CSS, Express, MongoDB, Firebase, and git, it ensures robust authentication and admin control. The user-friendly cart system and Razorpay integration provide a seamless, secure, and efficient shopping experience.
+                  Explore secure online shopping with our advanced e-commerce
+                  platform. Built on Node.js, ReactJs, CSS, Express, MongoDB,
+                  Firebase, and git, it ensures robust authentication and admin
+                  control. The user-friendly cart system and Razorpay
+                  integration provide a seamless, secure, and efficient shopping
+                  experience.
                 </p>
                 <a
                   href="https://github.com/Sudeepsalian7996/amazone-clone"
@@ -458,8 +535,7 @@
                   href="https://fe-1bf23.web.app/"
                   target="_blank"
                   class="button button-flex button-small portfolio-button"
-                  >Live Demo
-                  <i class="fa-solid fa-arrow-right button-icon"></i
+                  >Live Demo <i class="fa-solid fa-arrow-right button-icon"></i
                 ></a>
               </div>
             </div>
@@ -486,7 +562,7 @@
                 ></a>
               </div>
             </div>
-            
+
             <!-- project2  -->
             <div class="portfolio-content grid swiper-slide">
               <img src="Assets/chat1.png" alt="" class="portfolio-img" />
@@ -494,10 +570,11 @@
               <div class="portfolio-data">
                 <h3 class="portfolio-title">Group Chat App</h3>
                 <p class="portfolio-description">
-                  This application is a chat platform on AWS with a multigroup feature.
-                  Users can create/join groups. Security is ensured through JWT authentication and bcrypt
-                  encryption. Admins manage groups and members.
-                  Deployed on EC2 with Nginx, RDS, and PM2 for scalability and reliability.
+                  This application is a chat platform on AWS with a multigroup
+                  feature. Users can create/join groups. Security is ensured
+                  through JWT authentication and bcrypt encryption. Admins
+                  manage groups and members. Deployed on EC2 with Nginx, RDS,
+                  and PM2 for scalability and reliability.
                 </p>
 
                 <a
@@ -520,9 +597,9 @@
               <div class="portfolio-data">
                 <h3 class="portfolio-title">NewsJet React</h3>
                 <p class="portfolio-description">
-                  Get real-time news updates with our responsive
-                  React.js website using the news API. Customize categories for diverse 
-                  preferences, enjoy Dark mode support, Search bar support and 
+                  Get real-time news updates with our responsive React.js
+                  website using the news API. Customize categories for diverse
+                  preferences, enjoy Dark mode support, Search bar support and
                   navigate seamlessly with efficient pagination.
                 </p>
                 <a
